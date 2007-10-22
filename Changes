@@ -1,5 +1,9 @@
 Revision history for List-oo
 
+v0.1.1 2007-10-22
+
+  * fix undeclared test prereq
+
 v0.1.0 2007-10-21
 
   * first public release

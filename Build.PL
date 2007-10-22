@@ -21,10 +21,12 @@ my $builder = $build_class->new(
   requires => {
     'List::Util'      => 0,
     'List::MoreUtils' => 0.21,
+    'perl'            => '5.8.1',
   },
   build_requires => {
-    'Module::Build' => 0.26,
-    'Test::More'    => 0,
+    'Module::Build'    => 0.26,
+    'Test::More'       => 0,
+    'Test::NoWarnings' => 0,
   },
   add_to_cleanup      => [ qw(List-oo-* META.yml)],
   # create_makefile_pl => 'passthrough',

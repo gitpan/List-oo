@@ -1,6 +1,6 @@
 ---
 name: List-oo
-version: v0.1.0
+version: v0.1.1
 author:
   - 'Eric Wilhelm @ <ewilhelm at cpan dot org>'
 abstract: object interface to list (array) methods
@@ -13,13 +13,15 @@ resources:
 requires:
   List::MoreUtils: 0.21
   List::Util: 0
+  perl: 5.8.1
 build_requires:
   Module::Build: 0.26
   Test::More: 0
+  Test::NoWarnings: 0
 provides:
   List::oo:
     file: lib/List/oo.pm
-    version: v0.1.0
+    version: v0.1.1
 generated_by: Module::Build version 0.2809
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
