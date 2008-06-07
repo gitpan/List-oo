@@ -60,8 +60,8 @@ sub false {
   return(&List::MoreUtils::false($block, @$self));
 }
 sub first {
-  my ($self) = @_;
-  return(&List::Util::first(@$self));
+  my ($self, $block) = @_;
+  return(&List::Util::first($block, @$self));
 }
 sub firstidx {
   my ($self, $block) = @_;

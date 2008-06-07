@@ -477,9 +477,9 @@ See L<List::MoreUtils::false()|List::MoreUtils/item false>
 
 =item first
 
-C<$=l>
+C<$=&l>
 
-  my $answer = $list->first();
+  my $answer = $list->first($block);
 
 See L<List::Util::first()|List::Util/item first>
 

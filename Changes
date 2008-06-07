@@ -1,5 +1,9 @@
 Revision history for List-oo
 
+v0.2.1 2008-06-07
+
+  * fix declaration of first() method (was a segfault)
+
 v0.1.1 2007-10-22
 
   * fix undeclared test prereq

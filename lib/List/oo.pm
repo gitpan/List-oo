@@ -1,5 +1,5 @@
 package List::oo;
-$VERSION = v0.1.1;
+$VERSION = v0.2.1;
 
 use warnings;
 use strict;
